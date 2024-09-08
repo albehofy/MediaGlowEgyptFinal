@@ -1,0 +1,44 @@
+.top-tools .brands-holder{
+    width: 1500px;
+    animation-name: reverse-slider;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 0;
+}
+
+
+.bottom-tools .brands-holder{
+    width: 1500px;
+    animation-name: slider;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-delay: 0;
+}
+
+
+@keyframes slider {
+    0% {
+        transform: translatex(0%)
+    }
+
+    100% {
+        transform: translatex(100%);
+    }
+
+}
+
+
+@keyframes reverse-slider {
+    0% {
+        transform: translatex(100%)
+    }
+
+    100% {
+        transform: translatex(0%);
+    }
+
+}

@@ -1,0 +1,22 @@
+
+<div class="crousel-container">
+  <p-carousel 
+    [value]="[1,23,4,5,67,8]" 
+    [numVisible]="1" 
+    [numScroll]="1" 
+    [circular]="true" 
+    [responsiveOptions]="responsiveOptions">
+    <ng-template let-product pTemplate="item">
+      <a href="#"  [routerLink]="['/product-details',product.id]" class="container text-decoration-none">
+        <div class="carousle-card">
+          @if(product.image){
+            <img src="./assets/images/Adobe_Illustrator_CC_icon.svg" alt="">
+          }@else{
+            <img src="./assets/images/Adobe_Illustrator_CC_icon.svg" alt="">
+          }
+          <h2 class="text-center py-4">{{product.name}}</h2>
+        </div>
+      </a>
+    </ng-template>
+  </p-carousel>
+</div>

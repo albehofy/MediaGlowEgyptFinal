@@ -1,0 +1,36 @@
+<h2 ngClass="mt-[49px] py-[42px] text-[2rem] text-center text-[#db5156] font-[Cairo] md:text-[3.5rem]">جميع الخدمات التى يتطلبها عملك فى مكان واحد</h2>
+<p ngClass="pb-9 text-center">نعمل على انشاء افضل خطة مناسبة لعملك والعمل على ظهور النتج الخاص بك بطريقة مميزة لضمان الحصول على افضل النتائج
+    والوصول الى القمة</p>
+
+<div ngClass="services w-[97%] mx-w-92-px mx-auto flex flex-wrap">
+
+
+    @for (service of services; track $index) {
+        <!-- service -->
+        <a href="#" [routerLink]="['/service',service.id]"
+            ngClass="card-service transition ease-in-out transition-duration-500 w-[100%] md:w-[33%] sm:w-[50%] border bg-[#edf7f1] hover:bg-[#0e3f23] hover:text-[#FFF] cursor-pointer p-[35px]">
+            <div ngClass="min-h-[230px]">
+                <div ngClass="special-service border-e-[1px] border-e-[#000] w-[95%] mx-auto">
+                    <h4 ngClass="py-5 px-2 text-[1.7rem] font-[700] font-[Cairo]">{{service.name}}</h4>
+                    <p ngClass="description hidden">
+                        {{service.title}}
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-end items-center py-[21px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 36 36" fill="none">
+                    <path
+                        d="M18.3313 35.9842H18.0004C8.26127 35.9842 0.19266 28.056 0.00355127 18.3153C-0.091003 13.5079 1.7055 8.95269 5.04642 5.50085C8.38734 2.03326 12.8629 0.0788078 17.6852 0H18.0161C27.7552 0 35.8239 7.92822 35.9972 17.669C36.1706 27.599 28.2438 35.8266 18.3313 36V35.9842ZM18.0161 1.2767H17.701C13.2412 1.35551 9.08078 3.1681 5.97624 6.38351C2.88747 9.59892 1.21701 13.8231 1.2958 18.2837C1.46915 27.331 8.95466 34.6917 18.0004 34.6917H18.3156C27.5188 34.5184 34.8783 26.8896 34.7207 17.6847C34.5631 8.63747 27.0618 1.2767 18.0161 1.2767Z"
+                        fill="#EB6D12" />
+                    <path
+                        d="M26.984 18.2835L18.6159 26.9683C18.3638 27.2205 17.9698 27.2363 17.7019 26.9841C17.4498 26.7319 17.434 26.3221 17.6862 26.0699L24.9668 18.5042L9.47572 18.7879C9.12902 18.7879 8.82959 18.5042 8.82959 18.1575C8.82959 17.7949 9.11324 17.5112 9.45994 17.4955L24.9353 17.2118L17.3867 9.92976C17.1346 9.67757 17.1188 9.26783 17.3867 9.01564C17.5128 8.88955 17.6862 8.82651 17.8438 8.82651C18.0014 8.82651 18.1747 8.88955 18.3007 9.01564L27.441 17.8264L26.9998 18.2835H26.984Z"
+                        fill="#EB6D12" />
+                </svg>
+                <span ngClass="inline-block mx-2 text-[1.2rem] font-[200] font-[Cairo]">عرض المزيد عنا </span>
+            </div>
+        </a>
+    }
+
+  
+
+</div>

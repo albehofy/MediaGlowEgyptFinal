@@ -1,0 +1,129 @@
+<!-- <nav ngClass="fixed z-10 w-full bg-[#FFF] py-4 h-[75px] shadow">
+    <div ngClass="main-menu flex items-center justify-between w-[90%] mx-auto h-full " >
+        <div ngClass="logo">
+            <a href="#" [routerLink]="['/home']" ngClass="text-black text-[2rem]">ميديا جلو</a>
+        </div>
+
+        <div ngClass="mx-auto w-[65%] hidden sm:block">
+            <ul ngClass=" flex justify-around items-center ">
+                <li>
+                    <a href="#" [routerLink]="['/our-works']" routerLinkActive="bg-[#ff1a39] text-[white] "
+                        ngClass="rounded-md px-[28px] py-[14px] text-sm font-medium text-black">اعمالنا</a>
+                </li>
+
+                <li>
+                    <a href="#" [routerLink]="['/services']" routerLinkActive="bg-[#ff1a39] text-[white] "
+                        ngClass="rounded-md px-[28px] py-[14px] text-sm font-medium text-black" (click)="scroll('services')">خدمات</a>
+                </li>
+
+                <li>
+                    <a href="#" [routerLink]="['/team']" routerLinkActive="bg-[#ff1a39] text-[white] "
+                        ngClass="rounded-md px-[28px] py-[14px] text-sm font-medium text-black" (click)="scroll('team')">الفريق</a>
+                </li>
+                <li>
+                    <a href="#" [routerLink]="['/whoIsUs']" routerLinkActive="bg-[#ff1a39] text-[white] "
+                        ngClass="rounded-md px-[28px] py-[14px] text-sm font-medium text-black" (click)="scroll('whoIsUs')">من نحن</a>
+                </li>
+
+                <li>
+                    <a href="#" [routerLink]="['/contactUs']" routerLinkActive="bg-[#ff1a39] text-[white] "
+                        ngClass="rounded-md px-[28px] py-[14px] text-sm font-medium text-black">اتصل بنا</a>
+                </li>
+            </ul>
+        </div>
+        
+    
+        <span ngClass="block sm:hidden" (click)="isOpen = !isOpen">
+    
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000"
+                ngClass="bi bi-justify cursor-pointer" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </span>
+    </div>
+
+     <div [ngClass]="{'mobile-menu-open':isOpen,'mobile-menu': true, 'bg-white h-screen w-screen':true}">
+        <ul ngClass=" pb-6 flex-col h-screen w-screen flex justify-around items-center" >
+            <li>
+                <a href="#" [routerLink]="['/works']" routerLinkActive="bg-[#541690]"
+                    ngClass="rounded-md px-3 py-2 font-[Cairo] text-black">اعمالنا</a>
+            </li>
+
+            <li>
+                <a href="#" [routerLink]="['/services']" routerLinkActive="bg-[#541690]"
+                    ngClass="rounded-md px-3 py-2 font-[Cairo] text-black">خدمات</a>
+            </li>
+
+            <li>
+                <a href="#" [routerLink]="['/team']" routerLinkActive="bg-[#541690]"
+                    ngClass="rounded-md px-3 py-2 font-[Cairo] text-black" (click)="scroll('team')">الفريق</a>
+            </li>
+            <li>
+                <a href="#" [routerLink]="['/whoIsUs']" routerLinkActive="bg-[#541690]"
+                    ngClass="rounded-md px-3 py-2 font-[Cairo] text-black">من نحن</a>
+            </li>
+
+            <li>
+                <a href="#" [routerLink]="['/contactUs']" routerLinkActive="bg-[#541690]"
+                    ngClass="rounded-md px-3 py-2 font-[Cairo] text-black">اتصل بنا</a>
+            </li>
+        </ul>
+     </div>
+        
+</nav> -->
+
+<!-- Navbar -->
+<div class="navbar-shadow rounded shadow fixed-top w-[85%] mx-auto py-[17px] bg-[#FFF]">
+    <!-- top vanbar for conatcts info -->
+    <!-- main navbar -->
+    <nav class="main-navbar navbar navbar-expand-md navbar-light text-dark text-center bg-white pt-2">
+        <div class="container">
+            <a href="#" [routerLink]="['/home']" ngClass="text-black text-[2rem] block">
+                <img src="/assets/images/mediaGlow.png" style="transform: scale(1.25); margin-right: 12px;" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="w-[35px] btn-close ms-auto" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body justify-content-evenly">
+                    <!-- jops  -->
+                    <a class="navbar-links-with-special-edits" [routerLink]="['/our-works']" href="#" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                        اعمالنا
+                    </a>
+                    <!-- Services  -->
+                    <a class="navbar-links-with-special-edits" [routerLink]="['/services']" href="#" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                        خدمات
+                    </a>
+                    <!-- Team -->
+                    <a class="navbar-links-with-special-edits" [routerLink]="['/team']" href="#" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                        الفريق
+                    </a>
+                    <!-- Team -->
+                    <a class="navbar-links-with-special-edits"  [routerLink]="['/whoIsUs']" href="#" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                        من نحن
+                    </a>
+                 <!-- contact us -->
+                    <a class="navbar-links-with-special-edits" href="#" [routerLink]="['/contactUs']" data-bs-dismiss="offcanvas"
+                        aria-label="Close">
+                        تواصل معنا
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar background border smooth -->
+</div>

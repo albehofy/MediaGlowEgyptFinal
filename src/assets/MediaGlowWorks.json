@@ -1,0 +1,275 @@
+[
+    {
+        "id": "id0",
+        "name": "الحملات الاعلانية",
+        "image": "/assets/images/data/7.jpg",
+        "parts": [
+            {
+                "name": "Ads",
+                "imgUrl": [
+                    "/assets/images/data/7.jpg"
+                ],
+                "date": "27/2/1999"
+            }
+        ]
+    },
+    {
+        "id": "id1",
+        "name": "التصميمات",
+        "image": "/assets/images/designs/beauty-center/1/1.png",
+        "parts": [
+            {
+                "name": "beauty center 1",
+                "imgUrl": [
+                    "/assets/images/designs/beauty-center/1/1.png",
+                    "/assets/images/designs/beauty-center/1/2.png",
+                    "/assets/images/designs/beauty-center/1/3.png",
+                    "/assets/images/designs/beauty-center/1/4.png",
+                    "/assets/images/designs/beauty-center/1/5.png",
+                    "/assets/images/designs/beauty-center/1/6.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "beauty center 2",
+                "imgUrl": [
+                    "/assets/images/designs/beuty-center/1.png",
+                    "/assets/images/designs/beuty-center/2.png",
+                    "/assets/images/designs/beuty-center/3.png",
+                    "/assets/images/designs/beuty-center/4.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "coffee",
+                "imgUrl": [
+                  "/assets/images/designs/coffee/1/1.png",
+                    "/assets/images/designs/coffee/1/2.png",
+                    "/assets/images/designs/coffee/1/3.png",
+                    "/assets/images/designs/coffee/1/4.png",
+                    "/assets/images/designs/coffee/1/5.png",
+                    "/assets/images/designs/coffee/1/6.png",
+                    "/assets/images/designs/coffee/1/7.png",
+                    "/assets/images/designs/coffee/1/8.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "coffee 2",
+                "imgUrl": [
+                   "/assets/images/designs/coffee/1/1.png",
+                    "/assets/images/designs/coffee/1/2.png",
+                    "/assets/images/designs/coffee/1/3.png",
+                    "/assets/images/designs/coffee/1/4.png",
+                    "/assets/images/designs/coffee/1/5.png",
+                    "/assets/images/designs/coffee/1/6.png",
+                    "/assets/images/designs/coffee/1/7.png",
+                    "/assets/images/designs/coffee/1/8.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "dentists",
+                "imgUrl": [
+                    "/assets/images/designs/dentists/1/1.png",
+                    "/assets/images/designs/coffee/1/2.png",
+                    "/assets/images/designs/coffee/1/3.png",
+                    "/assets/images/designs/coffee/1/4.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "dentists 2",
+                "imgUrl": [
+                    "/assets/images/designs/dentists/2/1.png",
+                    "/assets/images/designs/coffee/2/2.png",
+                    "/assets/images/designs/coffee/2/3.png"                
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "dentists 3",
+                "imgUrl": [
+                    "/assets/images/designs/dentists/3/1.png",
+                    "/assets/images/designs/coffee/3/2.png",
+                    "/assets/images/designs/coffee/3/3.png",
+                    "/assets/images/designs/coffee/3/4.png",
+                    "/assets/images/designs/coffee/3/5.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "dentists 3",
+                "imgUrl": [
+                    "/assets/images/designs/dentists/4/1.png",
+                    "/assets/images/designs/coffee/4/2.png",
+                    "/assets/images/designs/coffee/4/3.png",
+                    "/assets/images/designs/coffee/4/4.png"                
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "fun",
+                "imgUrl": [
+                    "/assets/images/designs/fun/1/1.png",
+                    "/assets/images/designs/fun/1/2.png",
+                    "/assets/images/designs/fun/1/3.png",
+                    "/assets/images/designs/fun/1/4.png",
+                    "/assets/images/designs/fun/1/5.png",
+                    "/assets/images/designs/fun/1/6.png",
+                    "/assets/images/designs/fun/1/7.png",
+                    "/assets/images/designs/fun/1/8.png",
+                    "/assets/images/designs/fun/1/9.png",
+                    "/assets/images/designs/fun/1/10.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "fun2",
+                "imgUrl": [
+                    "/assets/images/designs/fun/2/1.png",
+                    "/assets/images/designs/fun/2/2.png",
+                    "/assets/images/designs/fun/2/3.png",
+                    "/assets/images/designs/fun/2/4.png",
+                    "/assets/images/designs/fun/2/5.png",
+                    "/assets/images/designs/fun/2/6.png",
+                    "/assets/images/designs/fun/2/7.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "fun 3",
+                "imgUrl": [
+                    "/assets/images/designs/fun/3/1.png",
+                    "/assets/images/designs/fun/3/2.png",
+                    "/assets/images/designs/fun/3/3.png",
+                    "/assets/images/designs/fun/3/4.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "labs",
+                "imgUrl": [
+                    "/assets/images/designs/labs/1/1.png",
+                    "/assets/images/designs/labs/1/2.png",
+                    "/assets/images/designs/labs/1/3.png",
+                    "/assets/images/designs/labs/1/4.png",
+                    "/assets/images/designs/labs/1/5.png",
+                    "/assets/images/designs/labs/1/6.png",
+                    "/assets/images/designs/labs/1/7.png",
+                    "/assets/images/designs/labs/1/8.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "labs",
+                "imgUrl": [
+                    "/assets/images/designs/labs/1/1.png",
+                    "/assets/images/designs/labs/1/2.png",
+                    "/assets/images/designs/labs/1/3.png",
+                    "/assets/images/designs/labs/1/4.png",
+                    "/assets/images/designs/labs/1/5.png",
+                    "/assets/images/designs/labs/1/6.png",
+                    "/assets/images/designs/labs/1/7.png",
+                    "/assets/images/designs/labs/1/8.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "labs 2",
+                "imgUrl": [
+                    "/assets/images/designs/labs/2/1.png",
+                    "/assets/images/designs/labs/2/2.png",
+                    "/assets/images/designs/labs/2/3.png",
+                    "/assets/images/designs/labs/2/4.png",
+                    "/assets/images/designs/labs/2/5.png",
+                    "/assets/images/designs/labs/2/6.png",
+                    "/assets/images/designs/labs/2/7.png",
+                    "/assets/images/designs/labs/2/8.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "resturant",
+                "imgUrl": [
+                    "/assets/images/designs/resturant/1/1.png",
+                    "/assets/images/designs/resturant/1/2.png",
+                    "/assets/images/designs/resturant/1/3.png",
+                    "/assets/images/designs/resturant/1/4.png",
+                    "/assets/images/designs/resturant/1/5.png",
+                    "/assets/images/designs/resturant/1/6.png",
+                    "/assets/images/designs/resturant/1/7.png",
+                    "/assets/images/designs/resturant/1/8.png",
+                    "/assets/images/designs/resturant/1/9.png",
+                    "/assets/images/designs/resturant/1/10.png",
+                    "/assets/images/designs/resturant/1/11.png",
+                    "/assets/images/designs/resturant/1/12.png"
+                ],
+                "date": "27/2/1999"
+            },
+            {
+                "name": "resturant 2",
+                "imgUrl": [
+                    "/assets/images/designs/resturant/2/1.png",
+                    "/assets/images/designs/resturant/2/2.png",
+                    "/assets/images/designs/resturant/2/3.png",
+                    "/assets/images/designs/resturant/2/4.png",
+                    "/assets/images/designs/resturant/2/5.png",
+                    "/assets/images/designs/resturant/2/6.png",
+                    "/assets/images/designs/resturant/2/7.png",
+                    "/assets/images/designs/resturant/2/8.png",
+                    "/assets/images/designs/resturant/2/9.png",
+                    "/assets/images/designs/resturant/2/10.png",
+                    "/assets/images/designs/resturant/2/11.png",
+                    "/assets/images/designs/resturant/2/12.png",
+                    "/assets/images/designs/resturant/2/13.png"
+                ],
+                "date": "27/2/1999"
+            }
+            
+        ]
+    },
+    {
+        "id": "id2",
+        "name": "ادارة الصفحات",
+        "image": "/assets/images/companies/DarAlhandsa/3.png",
+        "parts": []
+    },
+    {
+        "id": "id3",
+        "name": "التصوير",
+        "image": "/assets/images/companies/DarAlhandsa/4.png",
+        "parts": []
+    },
+    {
+        "id": "id4",
+        "name": "الطباعة",
+        "image": "/assets/images/companies/DarAlhandsa/5.png",
+        "parts": []
+    },
+    {
+        "id": "id5",
+        "name": "مواقع الكترنية",
+        "image": "/assets/images/companies/alfagr/1.png",
+        "parts": [
+            {
+                "name": "المختار",
+                "imgUrl": [
+                    "/assets/images/website/almokhtar/0.jpeg",
+                    "/assets/images/website/almokhtar/1.jpeg",
+                    "/assets/images/website/almokhtar/2.jpeg",
+                    "/assets/images/website/almokhtar/3.jpeg",
+                    "/assets/images/website/almokhtar/4.jpeg",
+                    "/assets/images/website/almokhtar/5.jpeg",
+                    "/assets/images/website/almokhtar/6.jpeg"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "id6",
+        "name": "برامج الكاشير",
+        "image": "/assets/images/companies/alfagr/1.png",
+        "parts": []
+    }
+]

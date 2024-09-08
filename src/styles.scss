@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@font-face {
+    font-family: Cairo;
+    src: url('/assets/fonts/cairo/Cairo-VariableFont_slnt,wght.ttf');
+}
+
+@font-face {
+    font-family: ahaleel;
+    src: url('/assets/fonts/ahaleel/ahaleel.otf');
+}
+
+@font-face {
+    font-family: basha;
+    src: url('/assets/fonts/basha/basha.ttf');
+}
+
+ *,*::after, *::before{
+ }
+
+html, body { 
+    height: 100%;
+    direction: rtl;
+ }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

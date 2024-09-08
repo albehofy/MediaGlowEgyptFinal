@@ -1,0 +1,21 @@
+<!-- <div ngClass="nav-shadow"></div> -->
+<div
+    ngClass="mt-[-70px] bg-gray-900 text-white font-['Cairo'] min-h-[100vh] flex items-center justify-start bg-[url('/assets/images/homeBg.jpg')] md:bg-cover bg-center">
+    <div ngClass="brand text-white p-2 md:w-[50%] min-w-[270px] w-[95%]">
+        <h1 ngClass="mr-[35px] text-[#ffffff]">اصنع نجاح عالمك معنا</h1>
+        <h1 ngClass="text-[3.5rem] text-center py-3 font-[900] mb-[24px]">ميديا جلو - Media Glow</h1>
+        <p ngClass="text-center pt-2 pb-7 font-[cairo] leading-[50px]">احد الرواد فى مجال الدعاية والاعلان مصر حيث ان لدينا فرق عمل على اعلى قدر من الكفائة والدقة فى تنفيذ المهام المطلبوبة ووضع استراتيجيات تسويقية متكاملة لضمان النجاح لشركتك</p>
+        <div ngClass="text-center">
+            <a href="tel:+201002001567" ngClass="inline-block mx-auto px-7 py-3 bg-[#db5156] hover:bg-white hover:text-[#db5156]">تواصل معنا</a>
+        </div>
+    </div>
+</div>
+
+
+<app-strategy></app-strategy>
+<app-services-show id="services" [services]="data.services"></app-services-show>
+<!-- <app-success-stories></app-success-stories> -->
+<app-who-is-us id="whoIsUs" [whoIsUs]="data.home.description"></app-who-is-us>
+<app-team id="team"></app-team>
+
+<app-location></app-location>

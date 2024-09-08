@@ -1,0 +1,41 @@
+<div ngClass="strategy">
+    <div
+        ngClass="font-[900] flex-col text-[0.75rem] font-[Cairo] flex justify-around flex-wrap align-center text-center py-[35px] md:text-[1.6rem] md:flex-row sm:text-[1.2rem] sm:flex-row xsm:flex-row">
+        <div class="card w-[95%] mx-auto xsm:w-[31%] grow py-4">
+            <div ngClass="number">+700</div>
+            <div ngClass="description">خطط تسويقية ناجحة</div>
+        </div>
+        <div class="card w-[95%] mx-auto xsm:w-[31%] grow py-4 ">
+            <div ngClass="number">+257</div>
+            <div ngClass="description">علامات تجارية</div>
+        </div>
+        <div class="card w-[95%] mx-auto xsm:w-[31%] grow py-4 ">
+            <div ngClass="number">+7000</div>
+            <div ngClass="description">تصاميم متميزة</div>
+        </div>
+    </div>
+    <h3 class="mt-[49px] py-[42px] text-[2rem] text-center font-[Cairo] md:text-[3.5rem] text-[#db5156]">نحن شركاء نجاح علامتك التجارية</h3>
+</div>
+<div ngClass="tools">
+    <div ngClass="top-tools py-5 overflow-hidden mt-9">
+        <div ngClass="brands-holder w-auto flex">
+            @for (strategy of leftStrategy; track $index) {
+                <div ngClass=" flex items-center justify-center inline-block overflow-hidden min-w-[175px] h-[175px] text-center leading-[75px] mx-[5rem]">
+                    <img ngClass="max-w-[100%] max-h-[100%]" src="{{strategy}}" alt="strategy {{$index}}">
+                </div>
+            }
+        </div>
+    </div>
+
+    <div ngClass="bottom-tools pt-[71px] my-3 overflow-hidden mt-9">
+        <div ngClass="brands-holder w-auto flex">
+            @for (strategy of rightStrategy; track $index) {
+                <div ngClass=" flex items-center justify-center inline-block overflow-hidden min-w-[175px] h-[175px] text-center leading-[75px] mx-[5rem]">
+                    <img ngClass="max-w-[100%] max-h-[100%]" src="{{strategy}}" alt="strategy {{$index}}">
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
+

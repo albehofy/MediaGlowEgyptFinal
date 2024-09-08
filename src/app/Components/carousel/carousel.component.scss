@@ -1,0 +1,13 @@
+.crousel-container, .crousel-container * {
+  direction: ltr;
+}
+a {
+  display: block;
+  width: 100%;
+  border: 1px solid #333;
+}
+img {
+  // display: block;
+  width: 100% !important;
+  max-height: 170px!important;
+}

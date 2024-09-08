@@ -1,0 +1,11 @@
+.card-service  {
+    transition: background  500ms ease;
+    &:hover{
+        .special-service{
+            border-left: 1px solid #FFF;
+        }
+        .description {
+            display: block;
+        }
+    }
+}
